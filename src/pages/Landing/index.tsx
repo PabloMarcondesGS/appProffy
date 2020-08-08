@@ -39,7 +39,7 @@ function Landing() {
                 </RectButton>
             
                 <RectButton  
-                onPress={handleNavigateToGiveClassesPage}
+                onPress={handleNavigateToStudyPage}
                 style={[styles.button, styles.buttonSecondary]}>
 
                     <Image source={giveClassesIcon}/>
