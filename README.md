@@ -14,3 +14,7 @@
 - Favoritar/Desfavoritar Professor
 - Listagem de favoritos
 - Abertura direta do whatsapp Para contato com o professor
+
+### Ideia do projeto
+- O App proffy tem como objetivo conectar alunos que querem aprender algo novo ou buscar aulas de reforço
+com professores de materias variadas que assim como a ideia do uber , tem algum tempo para ensinar ou prestar um serviço!
