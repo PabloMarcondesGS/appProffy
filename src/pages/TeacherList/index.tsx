@@ -9,6 +9,7 @@ import { Feather } from '@expo/vector-icons';
 import AsyncStorage from '@react-native-community/async-storage';
 
 import api from '../../services/api';
+import { useFocusEffect } from '@react-navigation/native';
 
 function TeacherList() {
     const [teachers, setTeachers] = useState([]);
@@ -36,6 +37,10 @@ function TeacherList() {
         setIsFilterVisible(!isFilterVisible);
     }
     
+    useFocusEffect(() =>{
+        loadFavorite();
+    })
+
     async function handlerfiltersSubmit(){
         loadFavorite();
         const response = await api.get('classes',{
